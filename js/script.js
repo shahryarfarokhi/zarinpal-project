@@ -6,6 +6,8 @@ const showMoreMenu = document.querySelector("#show-more-menu");
 const moreMenu = document.getElementById('more-menu');
 const showProductMenu = document.querySelector("#show-product-menu");
 const productMenu = document.getElementById("product-menu");
+const all1 = document.getElementById("all1");
+const all2 = document.getElementById("all2");
 
 hamburgerIcon.addEventListener("click", function () {
     hamburgerMenu.classList.add("show-hamburger-menu")
@@ -24,7 +26,7 @@ showMoreMenu.addEventListener("mouseenter", function (e) {
 })
 
 
-moreMenu.addEventListener("mouseleave", function (e) {
+all2.addEventListener("mouseleave", function (e) {
     moreMenu.style.display = "none";
 })
 
@@ -37,7 +39,7 @@ showProductMenu.addEventListener("mouseenter", function (event) {
 })
 
 
-productMenu.addEventListener("mouseleave", function (event) {
+all1.addEventListener("mouseleave", function (event) {
     productMenu.style.display = 'none';
 })
 
