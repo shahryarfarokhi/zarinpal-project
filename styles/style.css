@@ -639,6 +639,25 @@ footer .footer-links {
     padding: 8px 0;
 }
 
+.bell {
+    position        : fixed;
+    bottom          : 20px;
+    left            : 20px;
+    width           : fit-content;
+    padding         : 7px 7px 0;
+    background-color: #2e82ff;
+    border-radius   : 50%;
+}
+
+.bell a {
+    text-decoration: none;
+}
+
+.bell a img {
+    width : 40px;
+    height: 40px;
+}
+
 
 
 /* ********************************************************************************************** */
